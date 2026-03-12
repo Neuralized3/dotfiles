@@ -13,6 +13,12 @@ yay -S mpvpaper breeze-cursors cava wlogout plymouth zsh \
   nautilus rofi neovim vscodium-bin obsidian pulseaudio pavucontrol \
   blueman-manager wl-clipboard cliphist nwg-look neofetch btop
 ```
+Install the above packages, and place the .config files in your home/username/.config folder.
+Enable the services like bluetooth, download the gtk themes and implement them in nwg-look.
+Set linux-zen as default kernel and set timeout to 0 in systemmd config file to make boot faster, also use zram.
+Link nvim's config to sudo/nvim's config to apply the nvim theme globally.
+Install [plymouth](https://www.youtube.com/watch?v=tiOUNC-Q0xY&t=311s&pp=ygUIcGx5bW91dGg%3D) as the video shows.
+Set sddm as your default login manager. Down here is the usage of all listed modules !
 
 ---
 
