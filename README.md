@@ -1,15 +1,17 @@
 # Arch Linux Rice
 
+> **Note:** This repo contains configuration files that may reference or depend on third-party packages. I do not own any of them — full credit goes to their respective creators. All listed packages are free and open-source software (FOSS).
+
+
 ## Install
 
 ```bash
-sudo pacman -S yay
+sudo pacman -S yay wayland hyprland xorg-xwayland linux-zen
 
-yay -S mpvpaper breeze-cursors cava wlogout plymouth linux-zen zsh \
+yay -S mpvpaper breeze-cursors cava wlogout plymouth zsh \
   ungoogled-chromium-bin waybar spotify-adblock spicetify kitty sddm \
   nautilus rofi neovim vscodium-bin obsidian pulseaudio pavucontrol \
-  blueman wl-clipboard cliphist nwg-look neofetch wayland hyprland \
-  xorg-xwayland btop
+  blueman wl-clipboard cliphist nwg-look neofetch btop
 ```
 
 ---
