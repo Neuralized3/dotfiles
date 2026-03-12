@@ -11,7 +11,7 @@ sudo pacman -S yay wayland hyprland xorg-xwayland linux-zen
 yay -S mpvpaper breeze-cursors cava wlogout plymouth zsh \
   ungoogled-chromium-bin waybar spotify-adblock spicetify kitty sddm \
   nautilus rofi neovim vscodium-bin obsidian pulseaudio pavucontrol \
-  blueman wl-clipboard cliphist nwg-look neofetch btop
+  blueman-manager wl-clipboard cliphist nwg-look neofetch btop
 ```
 
 ---
@@ -42,7 +42,7 @@ yay -S mpvpaper breeze-cursors cava wlogout plymouth zsh \
 | `spicetify` | Spotify theming |
 | `pulseaudio` | Audio server |
 | `pavucontrol` | GUI audio manager |
-| `blueman` | Bluetooth manager |
+| `blueman-manager` | Bluetooth manager |
 | `wl-clipboard` + `cliphist` | Wayland clipboard + history |
 | `nwg-look` | GTK theme config |
 | `neofetch` | System info in terminal |
@@ -55,9 +55,9 @@ yay -S mpvpaper breeze-cursors cava wlogout plymouth zsh \
 
 | Tool | Description |
 | --- | --- |
-| Powerlevel10k | Zsh prompt theme |
-| GeistMono Nerd Font | Terminal font |
-| SF Pro Display | System font for Chromium |
+| [Powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation) | Zsh prompt theme |
+| [GeistMono Nerd Font](https://www.nerdfonts.com/font-downloads) | Terminal font |
+| [SF Pro Display](https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts) | System font for Chromium |
 | NextDNS | DNS-level ad and tracker blocking |
 
 ---
@@ -66,7 +66,7 @@ yay -S mpvpaper breeze-cursors cava wlogout plymouth zsh \
 
 | | |
 | --- | --- |
-| Theme | WhiteSur-Dark |
+| Theme | [WhiteSur-Dark](https://github.com/vinceliuice/WhiteSur-gtk-theme?tab=readme-ov-file) |
 | Icons | BlackBig-Sur |
 
 ---
@@ -82,6 +82,6 @@ yay -S mpvpaper breeze-cursors cava wlogout plymouth zsh \
 
 ## Notes
 
-**Plymouth** — Skip boot timeout in systemd config, use Nord theme from `plymouth-themes`, add `quiet splash` to kernel parameters.
+**Plymouth** — Skip boot timeout in systemd config, use Pack 3 Lone theme from [`plymouth-themes`](https://github.com/adi1090x/plymouth-themes), add `quiet splash` to kernel parameters.
 
-**Spotify** — Install `spotify-adblock` first, then apply theme with `spicetify` using the Text color scheme.
+**Spotify** — Install `spotify-adblock` first, then apply theme with `spicetify` using Text theme with spotify color scheme.
