@@ -1,0 +1,1 @@
+import{t as e,i as t,o as n,k as a}from"./defineAppConfig-CVuikOFg.js";const r={viewBox:"0 0 24 24",width:"1.2em",height:"1.2em"};function l(s,o){return n(),t("svg",r,[...o[0]||(o[0]=[a("path",{fill:"currentColor",d:"M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7z"},null,-1)])])}const i=e({name:"mdi-download",render:l});export{i as I};

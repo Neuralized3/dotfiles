@@ -1,0 +1,1 @@
+import{k as o}from"./errors-CZWpGVeY.js";import{bJ as u}from"./defineAppConfig-CVuikOFg.js";function i(e){const{enterSecurityIfNeeded:r}=o();return(...t)=>r().then(()=>e(...t)).catch(u)}export{i as u};

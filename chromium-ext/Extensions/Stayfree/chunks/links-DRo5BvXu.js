@@ -1,0 +1,1 @@
+import{h as e,br as a,a1 as s,a3 as n}from"./defineAppConfig-CVuikOFg.js";function i(r){return e({name:"DashboardRouterLink",props:{to:{type:String,required:!0}},render(){return a("a",{href:this.to,onClick:t=>{t.preventDefault(),r(this.to)}},this.$slots.default?.())}})}function u(r){const t=r.startsWith("/")?s(r):r;n("create-tab",{active:!0,url:t})}export{i as D,u as o};

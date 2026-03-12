@@ -1,0 +1,1 @@
+Please place the theme in /usr/share/sddm/themes/ and implement it. Note that I do not own this theme — full credit goes to the original creator, who can be found by searching "sddm-astronaut-theme" on GitHub.

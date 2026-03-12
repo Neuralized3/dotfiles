@@ -1,0 +1,1 @@
+import{t as o,i as t,o as i,k as n}from"./defineAppConfig-CVuikOFg.js";const a={viewBox:"0 0 24 24",width:"1.2em",height:"1.2em"};function r(m,e){return i(),t("svg",a,[...e[0]||(e[0]=[n("path",{fill:"currentColor",d:"M4 4h16v16H4zm2 4v10h12V8z"},null,-1)])])}const c=o({name:"mdi-window-maximize",render:r});export{c as I};

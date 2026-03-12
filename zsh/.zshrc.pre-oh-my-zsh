@@ -1,0 +1,22 @@
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt autocd
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/tiash/.zshrc'
+
+autoload -Uz compinit
+compinit
+
+pokemon-colorscripts -r --no-title
+# End of lines added by compinstall
+
+# add to ~/.zshrc
+bindkey -v  # enable vim mode
+
+# ctrl+arrows still work
+bindkey "\e[1;5D" backward-word
+bindkey "\e[1;5C" forward-word
+bindkey -e

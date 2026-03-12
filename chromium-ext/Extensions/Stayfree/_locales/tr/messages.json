@@ -1,0 +1,14 @@
+{
+  "name": {
+    "message": "StayFree - Site Engelleyici, Kullanım İstatistikleri, Shorts Engelleyici"
+  },
+  "shortName": {
+    "message": "StayFree"
+  },
+  "description": {
+    "message": "Web sitesi kullanımınızı anlamanıza ve kontrol etmenize yardımcı olan analizler, daha az dikkat dağınıklığı ve artırılmış verimlilik sağlar."
+  },
+  "shortDescription": {
+    "message": "Web kontrolü için analizler, daha az dikkat dağınıklığı ve artırılmış verimlilik."
+  }
+}

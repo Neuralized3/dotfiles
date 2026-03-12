@@ -1,0 +1,14 @@
+{
+  "name": {
+    "message": "StayFree - Blokada Stron, Statystyki Użycia Sieci, Blokada Shorts"
+  },
+  "shortName": {
+    "message": "StayFree"
+  },
+  "description": {
+    "message": "Analiza, która pomoże Ci zrozumieć i kontrolować korzystanie z internetu, co prowadzi do mniejszych rozproszeń i zwiększonej produktywności"
+  },
+  "shortDescription": {
+    "message": "Analiza do kontroli stron, mniej rozproszeń i zwiększona produktywność."
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["custom/power", "clock", "hyprland/workspaces"],
+  "modules-center": ["wlr/taskbar"],
+  "modules-right": ["pulseaudio", "network", "battery"],
+  "sway/window": {
+    "max-length": 50
+  },
+  "battery": {
+    "format": "{icon} {capacity}% ",
+    "format-icons": ["󱟟", "󰁺", "󰁾", "󰂀", "󰁹"],
+    "icon-size": 20,
+        "states": {
+        "warning": 15
+    }
+  },
+  "clock": {
+    "format": "󰥔  {:%I:%M  %p}",
+    "format-alt": "{:%a, %d. %b  %I:%M %p}"
+  },
+  "pulseaudio": {
+    "format": "{icon}  {volume}% ",
+    "format-bluetooth": "{icon}  {volume}%",
+    "format-muted": "",
+    "format-icons": {
+      "alsa_output.pci-0000_00_1f.3.analog-stereo": "",
+      "alsa_output.pci-0000_00_1f.3.analog-stereo-muted": "",
+      "headphone": "",
+      "phone": "",
+      "phone-muted": "",
+      "portable": "",
+      "car": "",
+      "default": ["", ""]
+    },
+    "scroll-step": 1,
+    "on-click": "blueman-manager",
+    "ignored-sinks": ["Easy Effects Sink"]
+  },
+  "network": {
+    "on-click": "nm-connection-editor",
+    "interface": "wlp2s0",
+    "format": "{ifname}",
+    "format-wifi": "󰤨  Network ",
+    "format-ethernet": "{ipaddr}/{cidr} 󰊗",
+    "format-disconnected": "", //An empty format will hide the module.
+    "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
+  },
+  "hyprland/workspaces": {
+    "format": "{name}" // Only show the workspace name/number
+  },
+  
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "tooltip": true,
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "icon-size": 20,
+    "ignore-empty": true
+  },
+  "custom/power": {
+    "format": "󰣇",
+    "tooltip": false,
+    "on-click": "wlogout --buttons-per-row 2"
+  }
+}

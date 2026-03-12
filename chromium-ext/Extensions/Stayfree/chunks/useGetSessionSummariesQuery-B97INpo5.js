@@ -1,0 +1,1 @@
+import{at as t,cR as r,e as u,bC as o}from"./defineAppConfig-CVuikOFg.js";import{u as m}from"./errors-CZWpGVeY.js";const i="session-summaries";function d(e,s=t()){const{state:a}=r();return m([i,e,a],s.getSessionSummaries,{placeholderData:o,enabled:u(()=>!!e.value.myInstallId)})}export{i as g,d as u};
