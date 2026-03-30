@@ -8,11 +8,13 @@
 The core of the setup featuring the **SDDM Astronaut** theme and custom bar.
 ![Homescreen](Homescreen.png)
 
-<details>
-<summary><b>View Lockscreen & Power Menu</b></summary>
+### Lockscreen
+*Lockscreen uses an sddm theme. (Theme doesn't belong to me.)*
 <br><img src="assets/Lockscreen.png" width="100%"> 
+
+### Power menu
+*Wlogout custom menu w css blur.*
 <br><img src="assets/Reboot-menu.png" width="100%">
-</details>
 
 ### 🛠️ Development Tools
 My daily drivers for coding and terminal productivity.
