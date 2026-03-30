@@ -113,5 +113,7 @@ Set sddm as your default login manager. Down here is the usage of all listed mod
 **Spotify** — Install `spotify-adblock` first, then apply theme with `spicetify` using Text theme with spotify color scheme.
 
 
-> [!NOTE]
-> <sub>This documentation was refined for clarity and style using Gemini.</sub>
+---
+<p align="right">
+  <img src="https://img.shields.io/badge/Refined_with-Gemini-8E75C2?style=flat-square&logo=google-gemini&logoColor=white" height="20">
+</p>
