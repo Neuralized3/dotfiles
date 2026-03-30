@@ -17,6 +17,26 @@
   <br>
   <i>The custom Reboot Menu integration</i>
 </p>
+
+## ✨ Showcase
+
+### 🖥️ Desktop Environment
+The core of the setup featuring the **SDDM Astronaut** theme and custom bar.
+![Homescreen](Homescreen.png)
+
+<details>
+<summary><b>View Lockscreen & Power Menu</b></summary>
+<br>
+<img src="assets/Lockscreen.png" width="49%"> <img src="assets/Reboot-menu.png" width="49%">
+</details>
+
+### 🛠️ Development Tools
+My daily drivers for coding and terminal productivity.
+![VSCodium](assets/VSCodium.png)
+*VSCodium with a custom CSS blur and Nord-inspired palette.*
+
+![Terminal](assets/Terminal.png)
+*Zsh + Fastfetch + Custom Prompt.* 
 ## Install
 
 ```bash
