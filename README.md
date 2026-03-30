@@ -6,7 +6,7 @@
 
 | Homescreen | Lockscreen |
 | :---: | :---: |
-| ![Homescreen](assets/Homescreen.png) | ![Lockscreen](assets/Lockscreen.png) |
+| ![Homescreen](Homescreen.png) | ![Lockscreen](assets/Lockscreen.png) |
 
 | Terminal | VSCodium |
 | :---: | :---: |
