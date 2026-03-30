@@ -2,22 +2,6 @@
 
 > **Note:** This repo contains configuration files that may reference or depend on third-party packages. I do not own any of them — full credit goes to their respective creators. All listed packages are free and open-source software (FOSS). If any of my personal details are found, please inform me immediately, I'll remove please.
 
-## 📸 Gallery
-
-| Homescreen | Lockscreen |
-| :---: | :---: |
-| ![Homescreen](Homescreen.png) | ![Lockscreen](assets/Lockscreen.png) |
-
-| Terminal | VSCodium |
-| :---: | :---: |
-| ![Terminal](assets/Terminal.png) | ![VSCodium](assets/VSCodium.png) |
-
-<p align="center">
-  <img src="assets/Reboot-menu.png" width="45%" alt="Reboot Menu">
-  <br>
-  <i>The custom Reboot Menu integration</i>
-</p>
-
 ## ✨ Showcase
 
 ### 🖥️ Desktop Environment
@@ -26,8 +10,8 @@ The core of the setup featuring the **SDDM Astronaut** theme and custom bar.
 
 <details>
 <summary><b>View Lockscreen & Power Menu</b></summary>
-<br>
-<img src="assets/Lockscreen.png" width="49%"> <img src="assets/Reboot-menu.png" width="49%">
+<br><img src="assets/Lockscreen.png" width="100%"> 
+<br><img src="assets/Reboot-menu.png" width="100%">
 </details>
 
 ### 🛠️ Development Tools
