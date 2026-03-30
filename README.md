@@ -111,3 +111,7 @@ Set sddm as your default login manager. Down here is the usage of all listed mod
 **Plymouth** — Skip boot timeout in systemd config, use Pack 3 Lone theme from [`plymouth-themes`](https://github.com/adi1090x/plymouth-themes), add `quiet splash` to kernel parameters.
 
 **Spotify** — Install `spotify-adblock` first, then apply theme with `spicetify` using Text theme with spotify color scheme.
+
+
+> [!NOTE]
+> <sub>This documentation was refined for clarity and style using Gemini.</sub>
