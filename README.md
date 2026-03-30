@@ -5,14 +5,14 @@
 ## ✨ Showcase
 
 ### 🖥️ Desktop Environment
-The core of the setup featuring the **SDDM Astronaut** theme and custom bar.
+The core of the setup featuring hyprland.
 ![Homescreen](Homescreen.png)
 
-### Lockscreen
+### 🔑 Lockscreen
 *Lockscreen uses an sddm theme. (Theme doesn't belong to me.)*
 <br><img src="assets/Lockscreen.png" width="100%"> 
 
-### Power menu
+### 🚪 Power menu
 *Wlogout custom menu w css blur.*
 <br><img src="assets/Reboot-menu.png" width="100%">
 
